@@ -65,7 +65,7 @@ class ProfilePage extends StatelessWidget {
                     child: CircleAvatar(
                       radius: isMobile ? 65 : 80,
                       backgroundColor: Colors.grey[200],
-                      // 1. Ensure this path is in your pubspec.yaml
+                      
                       backgroundImage: AssetImage('assets/img1.jpg'),
                     ),
                   ),
